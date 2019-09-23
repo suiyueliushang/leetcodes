@@ -114,11 +114,3 @@ class Solution(object):
                         return (max([nums1[m-1],nums2[j-1]])+nums2[j])/2
                     else:
                         return max([nums1[m-1],nums2[j-1]])
-            
-
-
-            
-S=Solution()
-a1=[1,2,3,4,6]
-a2=[5]
-print(S.findMedianSortedArrays(a1,a2))
