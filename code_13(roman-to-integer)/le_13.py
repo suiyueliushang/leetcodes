@@ -15,5 +15,3 @@ class Solution:
             integer+=dict[s[i]]
             i+=1
         return integer
-
-print(Solution().romanToInt("LVIII"))

@@ -14,5 +14,3 @@ class Solution:
             else:
                 i+=1
         return maxArea
-s=Solution()
-print(s.maxArea([1,8,6,2,5,4,8,3,7]))

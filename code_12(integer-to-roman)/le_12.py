@@ -15,5 +15,3 @@ class Solution:
             a+=1
             num=int(num/10)
         return str
-s=Solution()
-print(s.intToRoman(301))
