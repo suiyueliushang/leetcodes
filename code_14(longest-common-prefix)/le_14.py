@@ -12,3 +12,4 @@ class Solution:
             if lc=='':
                 return ''
         return lc
+    
