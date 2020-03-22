@@ -18,5 +18,6 @@
 ##### 进阶：
 
 你能尝试使用一趟扫描实现吗？
- [source](https://github.com/suiyueliushang/leetcodes/tree/master/code_19(removeNthFromEnd))
+
+[解题思路&&源码](https://github.com/suiyueliushang/leetcodes/tree/master/code_19(removeNthFromEnd))
  
