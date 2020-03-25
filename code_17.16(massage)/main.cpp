@@ -4,6 +4,9 @@ using namespace std;
 
 class Solution {
 public:
+	/**
+	 * 空间复杂度为O(n)的程序
+	 */
 	int massage(vector<int>& nums) {
 		if(nums.empty()) return 0;
 		int length=nums.size();
@@ -17,5 +20,18 @@ public:
 		delete []max_minute;
 		return res;
 		
+	}
+	
+	/**
+	 * 空间复杂度为O(1)的优化程序
+	 */
+	int massage(vector<int>& nums) {
+        int a=0, b=0,c;
+        for(int i=0;i<nums.size();i++){
+            c=b>a+nums[i]?b:a+nums[i];
+            a=b;
+            b=c;
+        }
+        return b;
 	}
 };
