@@ -22,4 +22,4 @@ class Solution:
                 res[-1] = len(words[i])
             else:
                 res.append(len(words[i]))
-        
+        return sum(res) + len(res)
