@@ -13,3 +13,13 @@ class Solution:
         for i in s:
             count+=i.__len__()+1
         return count
+
+    def minimumLengthEncoding(self, words: List[str]) -> int:
+        words = sorted(w[::-1] for w in words)
+        res = [len(words[0])]
+        for i in range(1,len(words)):
+            if words[i].startswith(words[i-1]):
+                res[-1] = len(words[i])
+            else:
+                res.append(len(words[i]))
+        return sum(res) + len(res)
