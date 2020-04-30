@@ -53,7 +53,7 @@ public:
 	/**
 	 * 逆推法和动态规划
 	 */
-	int superEggDrop(int K, int N) {
+	int superEggDrop1(int K, int N) {
 		int res,*dp=new int[K+1];
 		for(int i=0;i<K+1;i++,dp[i]=0);
 		for(res=0;dp[K]<N;++res)
@@ -63,8 +63,7 @@ public:
 	}
 };
 
-int main(){
-	Solution s;
-	
-	cout<<s.superEggDrop(3,8);
+int main(int argc,char** argv	){
+	cout << argv[0] << endl;
+	printf(argv[1]);
 }
