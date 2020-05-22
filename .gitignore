@@ -7,6 +7,10 @@ __pycache__/
 project
 # C extensions
 *.so
+*.exe
+*.ilk
+*.pdb
+*.obj
 
 # Distribution / packaging
 .Python
