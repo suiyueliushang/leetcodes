@@ -8,7 +8,8 @@ public:
 		while (left <= right)
 		{
 			mid = (left + right) / 2;
-			if ()
+			if (mid < len - 1 && nums[mid] > nums[mid + 1])
+				break;
 		}
 	}
 };
