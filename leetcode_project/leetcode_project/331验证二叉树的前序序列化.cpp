@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 using namespace std;
+#pragma warning(disable : 4996)
 class Solution {
 public:
     bool isValidSerialization(string preorder) {
@@ -27,7 +28,7 @@ public:
         if (!slot.empty())return false;
         return true;
     }
-    bool isValidSerialization(string preorder) {
+    bool isValidSerialization1(string preorder) {
         int length = preorder.length();
         int count = 1,i=0;
         while (i < length) {
