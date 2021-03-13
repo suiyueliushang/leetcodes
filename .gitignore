@@ -2,15 +2,23 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.vs
-.vscode
+.vs/
+.vscode/
 project
+debug/
+release/
+x64/
+
 # C extensions
 *.so
 *.exe
 *.ilk
 *.pdb
 *.obj
+*.sln
+*.vcxproj
+*.filters
+*.user
 
 # Distribution / packaging
 .Python
@@ -30,6 +38,7 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

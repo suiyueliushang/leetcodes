@@ -44,8 +44,3 @@ public:
 		return res;
 	}
 };
-
-int main() {
-	Solution s;
-	cout<<int('7'-'0');
-}
